@@ -13,7 +13,7 @@
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Hinos</title>
+    <title>Celestial 106.3FM En Vivo</title>
   </head>
   <body>
     <div class="wrapper" id="app">
@@ -35,16 +35,7 @@
                 <use xlink:href="#icon-link"></use>
               </svg>
             </a>
-            <div class="player-controls__item" @click="prevTrack">
-              <svg class="icon">
-                <use xlink:href="#icon-prev"></use>
-              </svg>
-            </div>
-            <div class="player-controls__item" @click="nextTrack">
-              <svg class="icon">
-                <use xlink:href="#icon-next"></use>
-              </svg>
-            </div>
+           
             <div class="player-controls__item -xl js-play" @click="play">
               <svg class="icon">
                 <use xlink:href="#icon-pause" v-if="isTimerPlaying"></use>
