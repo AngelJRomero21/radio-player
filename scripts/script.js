@@ -10,111 +10,14 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Rádio Gospel Campinas",
-          artist: "Ao Vivo!",
+          name: "Celestial 106.3FM",
+          artist: "Desde Guanare Para El Mundo",
           cover: "./01.jpg",
           source: "http://centova.nardele.com.br:4343/;stream/1",
-          url: "https://www.igrejaoamordedeus.com.br/",
+          url: "/acerca-de",
           favorited: false
         },
-		{
-           name: "Rádio Pão Diário",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://servidor24.brlogic.com:8808/live",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-        
-        {
-           name: "Rádio Estação Gospel",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://live1.livemus.com.br:27054/;",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Nova Geração",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://srv.smghosting.com.br:11416/;",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Perfeito Louvor",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "https://centova.mundodoradio.com.br:20001/stream?1589293944039",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Betel",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://149.56.85.6:8028/;?1589295073366",
-         url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Portal Web Gospel",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://centova2.euroti.com.br:8131/stream?1589295366043",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-			{
-           name: "Rádio Vida",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://hts06.kshost.com.br:9294/live?1589299595657",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Vitória",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://streaming04.hstbr.net:8156/live?1589299852358",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Bom Gosto",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://stm8.xcast.com.br:11408/;?1589300021767",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Minas Gospel",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://servidor31.brlogic.com:8948/live?1589300174679",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
-		
-		{
-           name: "Rádio Missionária Filadélfia",
-          artist: "Ao Vivo!",
-          cover: "./01.jpg",
-          source: "http://74.63.241.108:8686/live?1589300503978",
-          url: "https://www.igrejaoamordedeus.com.br/",
-          favorited: false
-        },
+	
       ],
       currentTrack: null,
       currentTrackIndex: 0,
