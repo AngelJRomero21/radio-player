@@ -13,7 +13,7 @@ new Vue({
           name: "Celestial 106.3FM",
           artist: "Desde Guanare Para El Mundo",
           cover: "./01.jpg",
-          source: "https://node-15.zeno.fm/9xze1eypbrzuv?rj-ttl=5&rj-tok=AAABgK7JEn4AqVClQ4ivmkk9lQ",
+          source: "https://node-15.zeno.fm/9xze1eypbrzuv",
           url: "/acerca-de",
           favorited: false
         },
